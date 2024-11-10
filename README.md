@@ -4,7 +4,6 @@ A responsive, bilingual (EN/DE) portfolio website built with React and Tailwind 
 
 [Live Demo](https://murali-kri5hna.github.io/murali-hemanna-portfolio)
 
-![Portfolio Preview](/api/placeholder/800/400)
 
 ## Features
 
