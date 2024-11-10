@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="32" height="32"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+     aria-hidden="true" 
+     role="img">
+  <defs>
+    <linearGradient id="accentGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(-15,-20) scale(1.2)">
+    <!-- Circular background -->
+    <circle cx="55" cy="50" r="45" fill="white"/>
+    
+    <!-- Triple waves -->
+    <path d="M20,48 Q38,18 55,48 Q72,78 90,48 
+             M22,50 Q40,20 55,50 Q70,80 88,50 
+             M24,52 Q42,22 55,52 Q68,82 86,52" 
+          stroke="#2b2b2b" 
+          stroke-width="1" 
+          stroke-linecap="round"
+          fill="none"/>
+          
+    <!-- Center dot -->
+    <circle cx="55" cy="50" r="10" 
+            fill="url(#accentGradient1)"/>
+  </g>
+</svg>

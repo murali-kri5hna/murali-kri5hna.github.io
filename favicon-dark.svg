@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="32" height="32"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="accentGradient-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <!-- Stroke with outline effect -->
+    <filter id="outline-dark">
+      <feMorphology in="SourceAlpha" result="expanded" operator="dilate" radius="0.5"/>
+      <feFlood flood-color="#2b2b2b" result="black"/>
+      <feComposite in="black" in2="expanded" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  
+  <g transform="translate(15,15) scale(0.7)">          
+    <!-- Foreground lines with outline effect -->
+    <path d="M23,48 Q38,28 55,48 Q72,68 87,48 
+             M25,50 Q40,30 55,50 Q70,70 85,50 
+             M27,52 Q42,32 55,52 Q68,72 83,52" 
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+          filter="url(#outline-dark)"
+          fill="none"/>
+          
+    <!-- Center dot with gradient -->
+    <circle cx="55" cy="50" r="12" 
+            fill="url(#accentGradient-dark)"/>
+  </g>
+</svg>
