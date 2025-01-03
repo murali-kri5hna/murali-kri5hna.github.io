@@ -7,12 +7,11 @@ A responsive, bilingual (EN/DE) portfolio website built with React and Tailwind 
 
 ## Features
 
-- 🌐 Bilingual support (English/German)
-- 🌓 Dark/Light theme
-- 📱 Fully responsive design
-- 🎨 Modern UI with Tailwind CSS
-- ⚡ Built with Vite
-- 🚀 Automated GitHub Pages deployment
+- Bilingual support (English/German)
+- Dark/Light theme
+- Modern UI with Tailwind CSS
+- Built with Vite
+- Automated GitHub Pages deployment
 
 ## Tech Stack
 
