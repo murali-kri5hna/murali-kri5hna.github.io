@@ -580,7 +580,7 @@ const Portfolio = () => {
           
           {/* Contact links */}
           <div className="flex justify-center space-x-6 mt-8">
-            <a href="mailto:work.ludicrous111@passinbox.com" className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
+            <a href="mailto:mkhg42@proton.me" className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
               <Mail size={20} />
               <span>Email</span>
             </a>
