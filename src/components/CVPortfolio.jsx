@@ -284,7 +284,7 @@ const Portfolio = () => {
 
   const content = {
     en: {
-      description: "Master's in Computational Engineering with focus on image processing and numerical methods. Skilled in software development through research positions at Fraunhofer Institutes and contribution to open source.",
+      description: "",
       skills: {
         title: "Skills",
         programming: {
@@ -398,7 +398,7 @@ const Portfolio = () => {
       }
     },
     de: {
-      description: "Master in Computational Engineering mit Schwerpunkt auf Bildverarbeitung und numerischen Methoden. Erfahren in Softwareentwicklung durch Forschungspositionen an Fraunhofer-Instituten und Beitrag zu Open Source.",
+      description: "",
       skills: {
         title: "Kenntnisse",
         programming: {
