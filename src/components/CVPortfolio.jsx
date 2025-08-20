@@ -584,10 +584,6 @@ const Portfolio = () => {
               <Mail size={20} />
               <span>Email</span>
             </a>
-            {/* <a href="tel:+4915734768688" className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
-              <Phone size={20} />
-              <span>Phone</span>
-            </a> */}
             <a href="https://github.com/murali-kri5hna" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
               <Github size={20} />
               <span>GitHub</span>
