@@ -1,26 +1,9 @@
 # Personal Portfolio Website
 
-A responsive, bilingual (EN/DE) portfolio website built with React and Tailwind CSS, featuring dark/light mode and interactive project showcases.
+A portfolio website built with React and Tailwind CSS.
 
-[Live Demo](https://murali-kri5hna.github.io/murali-hemanna-portfolio)
+[murali-kri5hna.github.io](https://murali-kri5hna.github.io/)
 
-
-## Features
-
-- Bilingual support (English/German)
-- Dark/Light theme
-- Modern UI with Tailwind CSS
-- Built with Vite
-- Automated GitHub Pages deployment
-
-## Tech Stack
-
-- React
-- Tailwind CSS
-- Vite
-- Shadcn/UI Components
-- Lucide Icons
-- GitHub Actions
 
 ## Local Development
 
